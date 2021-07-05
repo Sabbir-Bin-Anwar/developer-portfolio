@@ -40,6 +40,11 @@ H1{
 .para-two{
     padding-right: 80px;
 }
+.experience-area{
+    background-image:url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
 .exp-item{
     width: 40%;
     margin: 3% 5% 5%;
@@ -49,14 +54,17 @@ H1{
 }
 #border1{
     border-left:7px solid ;
-    border-image: linear-gradient(blue cyan);
+    border-image: linear-gradient(orange,tomato);
     border-image-slice: 1;
 }
 #border2{
     border-left:7px solid ;
-    border-image: linear-gradient(blue cyan);
-    border-image-slice: 1;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 2;
 }
 footer p{
     text-align: center;
+}
+.exp{
+    padding-left:75px;
 }
