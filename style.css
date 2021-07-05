@@ -9,7 +9,7 @@ H1{
     color: orange;
 
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 60px;
 }
@@ -32,10 +32,6 @@ section{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
-}
-section{
-    display: flex;
-}
 .section-two{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
@@ -43,4 +39,24 @@ section{
 }
 .para-two{
     padding-right: 80px;
+}
+.exp-item{
+    width: 40%;
+    margin: 3% 5% 5%;
+    padding: 40px 40px;
+    box-shadow:10px 10px 40px  grey;
+    border-radius: 15px;
+}
+#border1{
+    border-left:7px solid ;
+    border-image: linear-gradient(blue cyan);
+    border-image-slice: 1;
+}
+#border2{
+    border-left:7px solid ;
+    border-image: linear-gradient(blue cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
